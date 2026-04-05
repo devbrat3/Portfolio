@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Devbrat Kumar Saha | Software Developer</title>
+
+<!-- SEO -->
+<meta name="description" content="Devbrat Kumar Saha - Full Stack Developer (.NET & Java), Machine Learning & NLP Engineer Portfolio">
+<meta name="keywords" content="Devbrat Kumar Saha, Full Stack Developer, .NET, Java, NLP, Machine Learning, Portfolio">
+<meta name="author" content="Devbrat Kumar Saha">
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- ================= LOADER ================= -->
+<div id="loader">
+    <div class="spinner"></div>
+    <p>Loading Portfolio...</p>
+</div>
+
+<!-- ================= CUSTOM CURSOR ================= -->
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+
+    <h2 class="logo">Devbrat Kumar Saha</h2>
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+        <button id="theme-toggle">🌙</button>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+    </div>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero reveal">
+
+    <!-- LEFT -->
+    <div class="hero-content">
+
+        <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Devbrat Kumar Saha</span>
+        </h1>
+
+        <p id="typing-text" class="typing"></p>
+
+        <p class="hero-desc">
+            MCA student and aspiring <strong>Software Developer</strong> specializing in 
+            <strong>.NET, Java Full Stack, and Backend Development</strong>.
+            I build scalable systems, REST APIs, and data-driven applications.
+        </p>
+
+        <p class="hero-highlight">
+             Scalable Systems •  Problem Solver •  Backend Focused
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="assets/resume.pdf" class="btn secondary" download>Download Resume</a>
+        </div>
+
+        <div class="hero-info">
+            <span>📍 Noida, India</span>
+            <span>🎓 MCA (2024–2026)</span>
+            <span>💼 Open to Developer Roles</span>
+        </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="hero-image-container">
+
+        <div class="glow-ring"></div>
+
+        <img src="assets/images/profile.png"
+             alt="Devbrat Kumar Saha Profile"
+             class="hero-img">
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section reveal">
+
+    <div class="section-header">
+        <h2>Projects</h2>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="backend">Backend</button>
+            <button class="filter-btn" data-filter="ml">ML</button>
+        </div>
+    </div>
+
+    <div class="project-container" id="project-container"></div>
+
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="section reveal">
+
+    <h2>Experience</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>Java Full Stack Developer Intern</h3>
+            <span>Wipro • Jul 2025 – Oct 2025</span>
+
+            <p>
+                Completed an industry-oriented full stack training program focused on real-world application development.
+            </p>
+
+            <ul>
+                <li>Developed frontend using HTML, CSS, JavaScript</li>
+                <li>Implemented backend logic using Core Java & OOP</li>
+                <li>Worked with MVC architecture and full-stack workflow</li>
+                <li>Strengthened problem-solving and system design fundamentals</li>
+            </ul>
+
+            <p><strong>Achievement:</strong> 97% Performance Score</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="section reveal">
+
+    <h2>Education</h2>
+
+    <div class="edu-container">
+
+        <div class="edu-card">
+            <h3>Galgotias University</h3>
+            <p>MCA (Master of Computer Applications)</p>
+            <span>Sep 2024 – Apr 2026</span>
+        </div>
+
+        <div class="edu-card">
+            <h3>Sido Kanhu Murmu University</h3>
+            <p>Bachelor's in Computer Applications</p>
+            <span>Nov 2020 – Feb 2024</span>
+            <p><strong>CGPA:</strong> 8.32</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section id="certifications" class="section reveal">
+
+    <h2>Certifications</h2>
+
+    <div class="cert-container">
+
+        <div class="cert-card">
+            <h3>Java Programming</h3>
+            <p>HackerRank Certified | Strong problem-solving & OOP skills</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>JavaScript Certification</h3>
+            <p>Frontend scripting & DOM manipulation expertise</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>CCNA - Cisco</h3>
+            <p>Networking fundamentals & system-level understanding</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>Blockchain Developer Training</h3>
+            <p>Distributed systems & blockchain fundamentals</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>Cyber Threat Intelligence</h3>
+            <p>Security awareness & threat analysis exposure</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section reveal">
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+
+        <!-- Languages -->
+        <span>C</span>
+        <span>C++</span>
+        <span>Java</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+
+        <!-- Backend -->
+        <span>.NET Core</span>
+        <span>ASP.NET</span>
+        <span>Spring Boot</span>
+
+        <!-- Frontend -->
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>React</span>
+        <span>Angular</span>
+
+        <!-- Database -->
+        <span>SQL Server</span>
+        <span>MySQL</span>
+
+        <!-- ML -->
+        <span>Machine Learning</span>
+        <span>NLP</span>
+        <span>BERT</span>
+
+        <!-- Tools -->
+        <span>Git</span>
+        <span>REST APIs</span>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT (UPGRADED) ================= -->
+
+<section id="contact" class="section reveal">
+
+    <h2>Let's Connect</h2>
+
+    <p class="contact-subtitle">
+        Open to opportunities, collaborations, and innovative projects.
+    </p>
+
+    <div class="contact-container">
+
+        <!-- LEFT: INFO -->
+        <div class="contact-info">
+
+            <div class="contact-item">
+                <span>📧</span>
+                <div>
+                    <h4>Email</h4>
+                    <p>devbratkumarsaha@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span>💻</span>
+                <div>
+                    <h4>GitHub</h4>
+                    <a href="https://github.com/devbrat3" target="_blank">
+                        github.com/devbrat3
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span>🔗</span>
+                <div>
+                    <h4>LinkedIn</h4>
+                    <a href="https://linkedin.com/in/devbrat-kumar-saha" target="_blank">
+                        linkedin.com/in/devbrat-kumar-saha
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT: FORM -->
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ================= SCROLL TO TOP ================= -->
+<button id="scrollTopBtn">↑</button>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <p>© 2026 Devbrat Kumar Saha | Built with Precision</p>
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="data/projects.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
